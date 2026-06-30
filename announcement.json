@@ -1,57 +1,14 @@
 {
-  "success": true,
-  "enabled": true,
-  "version": "3.0.0",
-  "announcement": {
-    "id": "welcome-v3",
-    "type": "welcome",
-    "priority": 100,
-    "showOnce": true,
-    "dismissible": true,
-    "theme": {
-      "background": "#0c0c0c",
-      "card": "#161616",
-      "cardSecondary": "#1a1a1a",
-      "border": "#2a2a2a",
-      "primary": "#f0900a",
-      "primaryGlow": "rgba(240,144,10,0.25)",
-      "text": "#f0f0f0",
-      "textMuted": "#888888",
-      "button": "#1c1c1c",
-      "buttonBorder": "#333333",
-      "buttonText": "#ffffff"
-    },
-    "header": {
-      "title": "THANKS FOR DOWNLOADING",
-      "subtitle": "1dleryu X TikTok V3"
-    },
-    "content": {
-      "title": "Welcome!",
-      "message": "Thank you for downloading my extension. I truly appreciate your support. I will continue improving the extension with new features, better performance, bug fixes, and future updates."
-    },
-    "cards": [
-      {
-        "title": " Video Patcher",
-        "description": "Patch your videos before uploading to TikTok."
-      },
-      {
-        "title": " FFmpeg FPS Tool",
-        "description": "Apply FPS manipulation with a single click."
-      },
-      {
-        "title": " Automatic Updates",
-        "description": "Receive announcements and future improvements automatically."
-      }
-    ],
-    "buttons": [
-      {
-        "text": "Continue",
-        "action": "close",
-        "primary": true
-      }
-    ],
-    "footer": {
-      "text": "Made with by Idleryu Studio"
-    }
-  }
+  "id": "update-required-v4",
+  "type": "update_required",
+  "badge": "Update Required",
+  "headline": "Your Extension Is Outdated",
+  "subtext": "Some features may stop working until you update to the latest version.",
+  "versionFrom": "v3",
+  "versionTo": "v4",
+  "cta": {
+    "label": "Download Update",
+    "url": "https://t.me/loverielle76"
+  },
+  "footnote": "1DLERYU X TIKTOK · IDLERYU STUDIO"
 }
