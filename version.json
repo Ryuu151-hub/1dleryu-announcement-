@@ -1,9 +1,8 @@
 {
-  "latestVersion": "3.5",      
-  "minimumVersion": "3.5",     
-  "blacklist": [
-    "3.5"                     
-  ],
-  "updateTitle": "Update Required",
-  "updateMessage": "Your extension version is no longer supported. Please update to continue."
+  "latestVersion": "3.5",
+  "minSupportedVersion": "3.0",
+  "blockedVersions": [],
+  "blockTitle": "Update required",
+  "blockMessage": "This version is no longer supported. Please reinstall the latest version.",
+  "updatedAt": "2026-07-01"
 }
