@@ -1,10 +1,64 @@
 {
-  "latestVersion": "3.6",
-  "minimumVersion": "3.6",
-  "blacklist": [
-    "3.5"
-  ],
-  "updateTitle": "Update Required",
-  "updateMessage": "Your extension version is no longer supported. Please update to continue."
-}
+  "enabled": true,
+  "id": "announcement-v3.6",
 
+  "theme": {
+    "background": "#0c0c0c",
+    "card": "#161616",
+    "cardSecondary": "#1a1a1a",
+    "border": "#2a2a2a",
+    "accent": "#f0900a",
+    "text": "#f0f0f0",
+    "textMuted": "#8a8a8a",
+    "blur": true
+  },
+
+  "announcement": {
+    "enabled": true,
+    "showOnce": true,
+    "title": "Welcome to 1dleryu X TikTok V3.6",
+    "subtitle": "Thanks for downloading!",
+    "message": "We've improved performance, stability, and added a new update system.",
+    "button": {
+      "text": "Continue",
+      "action": "close"
+    }
+  },
+
+  "update": {
+    "enabled": true,
+    "latestVersion": "3.6",
+    "minimumVersion": "3.6",
+    "forceUpdate": true,
+
+    "blacklist": [
+      "3.5"
+    ],
+
+    "title": "Update Required",
+    "message": "This version is no longer supported. Please update to continue.",
+
+    "buttons": {
+      "update": {
+        "text": "Update Now",
+        "url": "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases/latest"
+      },
+      "cancel": {
+        "enabled": false,
+        "text": "Close"
+      }
+    }
+  },
+
+  "maintenance": {
+    "enabled": false,
+    "title": "Maintenance",
+    "message": "Servers are currently under maintenance. Please try again later."
+  },
+
+  "popup": {
+    "animation": "fade",
+    "backdropBlur": true,
+    "dismissible": true
+  }
+}
